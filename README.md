@@ -19,7 +19,7 @@ After that you will be able to see the api working!
 
 # Kubernetes
 
-To run this example with Kubernetes make sure you have Docker running, then start Minikube `$ minikube start` after that you need to set your minikube enviroment with `eval $(minikube docker-env)`
+To run this example with Kubernetes make sure you have Docker running, then start Minikube `$ minikube start` after that you need to set your minikube enviroment with `$ eval $(minikube docker-env)`
 finally you can use the **setup.sh** script to run the API:
 
 `$ ./setup.sh build` will build the Docker Image from the Dockerfile in **kube/flask**
