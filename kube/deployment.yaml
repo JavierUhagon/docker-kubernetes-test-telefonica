@@ -18,7 +18,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: flask
-          image: localhost:5000/flask:1
+          image: localhost:5000/flask
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
